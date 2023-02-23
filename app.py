@@ -1,8 +1,8 @@
 import streamlit as st
 from datetime import date
 import locale
-# Configura el idioma y la localización
-locale.setlocale(locale.LC_TIME, "es_ES.UTF-8")
+# # Configura el idioma y la localización
+# locale.setlocale(locale.LC_TIME, "es_ES.UTF-8")
 
 # Set page config
 st.set_page_config(page_title="COMPEDIO AIESEC", page_icon=":owl:", initial_sidebar_state="expanded")
